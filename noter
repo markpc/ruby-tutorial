@@ -1,0 +1,32 @@
+Start ruby rails server med
+	
+	rails s ELLER rails server
+
+
+
+#### TILFØJE LINKS ###
+
+
+
+Add to 'Application' i Views -> Layouts.
+
+
+
+
+#### STORE MÆNGDER KODE KAN TILFØJES LIGE SOM YIELD. De kaldes PARTIALS
+
+"<=% %>" gør det muligt at indsætte ruby koder i html - slutter på '.erb'
+= betyder at det skal vises. Tagget uden '='' bliver ikke vist
+
+SVARENDE TIL INCLUDE I PHP
+
+
+
+####
+
+installation af gems er 3 trin:
+
+	# Kopier gem koden over i 'Gemfile'
+		"gem "paperclip", "~> 4.1""
+	# I Terminal, kør 'install bundle'
+	# Restart rails server med 'rails s'
