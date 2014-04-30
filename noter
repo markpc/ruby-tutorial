@@ -30,3 +30,12 @@ installation af gems er 3 trin:
 		"gem "paperclip", "~> 4.1""
 	# I Terminal, kør 'install bundle'
 	# Restart rails server med 'rails s'
+
+#####
+
+If you're new to Django (or MVC frameworks in general), odds are the terms "projects" and "apps" might be a little confusing.
+
+With Django, a Project is just a collection of apps. Say you were building a YouTube clone; you would create a project, "MyTube", that would contain apps like "videos", "comments", "ratings", "blog", etc.
+
+Apps are similar to modules in a CMS, except you build them from scratch. They're a lot smaller in scope, typically performing only one main function. For the MyTube example, you wouldn't just create one app that allowed users to upload videos, comment on them, rate them, and anything else. You want your apps to be small in scope, performing only one or two functions by themselves.
+
